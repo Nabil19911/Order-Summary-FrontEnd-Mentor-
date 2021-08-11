@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  text-align: center;
+  width: 85%;
+  min-width: 320px;
+  max-width: 320px;
+  margin: auto;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.image-wrapper {
+  width: 100%;
+  margin: auto;
+}
+.image-wrapper img {
+  width: 100%;
+}
+.order-wrapper {
+  height: auto;
+  width: 90%;
+  margin: auto;
+}
+.order-wrapper h1 {
+  margin-top: 20px;
+  padding: 10px;
+}
+.order-wrapper p {
+  padding: 10px;
+  font-size: 1.1rem;
+  color: hsl(224, 23%, 55%);
+}
+.plan-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.plan-wrapper a {
+  color: hsl(245, 75%, 52%);
+  font-weight: bolder;
+}
+.deals p {
+  font-size: 1.2rem;
+  padding: 0;
+}
+.btn-wrapper {
+  margin: 15% 0;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 25%;
+}
+.btn-wrapper button {
+  color: white;
+  font-weight: 700;
+  padding: 5%;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+}
+.btn-wrapper a {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
