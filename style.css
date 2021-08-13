@@ -47,15 +47,15 @@ h2 {
   margin: auto;
 }
 .order-wrapper h1 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: 900;
   margin-top: 20px;
   padding: 10px;
 }
 .order-wrapper p {
   padding: 10px;
-  font-size: 1rem;
-  line-height: 25px;
+  font-size: 1.1rem;
+  line-height: 30px;
   color: hsl(224, 23%, 55%);
 }
 .plan-wrapper {
@@ -85,7 +85,7 @@ h2 {
   padding: 0;
 }
 .btn-wrapper {
-  margin: 15% 0;
+  margin: 10% 0 15% 0;
   display: grid;
   grid-template-rows: auto auto;
   gap: 25%;
@@ -114,6 +114,13 @@ h2 {
   }
   .card {
     width: 35%;
+    margin: auto;
+  }
+  .order-wrapper h1 {
+    font-size: 2rem;
+  }
+  .btn-wrapper button {
+    width: 85%;
     margin: auto;
   }
 }
