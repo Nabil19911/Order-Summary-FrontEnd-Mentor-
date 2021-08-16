@@ -54,4 +54,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-I thank me for not to giving up when I stuck and depressed.
+I thank myself for not to giving up when I stuck and depressed.
