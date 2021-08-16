@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![My Solution](./solution/My Solution-Frontend Mentor Order summary card.png)
+![My Solution](./solution/My-Solution-Frontend-Mentor-Order-summary-card.png)
 
 ### Links
 
